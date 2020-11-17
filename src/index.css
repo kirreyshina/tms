@@ -1,0 +1,76 @@
+* {
+  margin:0;
+  padding:0;
+  outline:none;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-attachment: fixed;
+  background: linear-gradient(to bottom, #ffff99 24%, #ffcccc 91%);
+  background-repeat:no-repeat;
+}
+
+.App { 
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+}
+.title {
+  font-family: Neucha;
+  font-size:45px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color:#6256A5;
+  margin: 30px 0px 50px;
+}
+.task {
+  font-family: Neucha;
+  font-size:21px;
+  display:flex;
+  margin:auto;
+  padding:3px 10px;
+  margin-bottom: 25px;
+  width:300px;
+  border:1px solid #6256A5;
+  border-radius:5px;
+  box-shadow:1px 1px 3px;
+}
+.task:hover {
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
+}
+p {
+  padding-left: 10px;
+}
+
+input {
+  font-family:Neucha;
+  font-size: 25px;
+  border:1px solid #6256A5;
+  border-radius:5px;
+  box-shadow:1px 1px 3px;
+  width: 250px;
+  border-radius: 3px;
+  background-color: #EDF2F4;
+}
+button {
+  font-family:Neucha;
+  font-size: 17px;
+  color: black;
+  width: 41px;
+  height: 48px;
+  border-radius:5px;
+  border:1px solid;
+  box-shadow:1px 1px 3px;
+  background-color: #EDF2F4;
+  cursor: pointer;
+  padding:2px;
+}
+button:hover {
+  background-color:#E0E4E5;
+}
